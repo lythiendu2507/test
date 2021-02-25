@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+nav
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: aquamarine;
+  color: rgb(179, 53, 44);
+
+}
+ 
+.nav-link{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+ 
+  list-style: none;
+  font-size: 150%;
+  font-family: monospace;
+  transition: 2s;
+}
+
+
+.name
+{
+  font-size: 70%;
+}
